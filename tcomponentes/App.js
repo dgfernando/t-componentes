@@ -37,7 +37,7 @@ export default function App() {
       <StatusBar style={theme === 'dark' ? 'light' : 'dark'} />
       <Greeting name="diego" />
       <UserDetails name="diego" age={20} occupation="estudiante" />
-      <Task task={{ title: "Taller componentes", completed: false }} />
+      <Task task={{ title: "Taller componentes", completed: true }} />
       <ToggleText />
       <DynamicForm/>
       <ClickCounter></ClickCounter>
