@@ -33,15 +33,15 @@ export default function App() {
     <ScrollView contentContainerStyle={{ flexGrow: 1 }}>
     <View style={[styles.container, theme === 'dark' ? styles.darkContainer : styles.lightContainer]}>
       <SafeAreaView style={styles.safeArea}>
-      <Text>09/09/2024</Text>
-      <StatusBar style={theme === 'dark' ? 'light' : 'dark'} />
-      <Greeting name="diego" />
-      <UserDetails name="diego" age={20} occupation="estudiante" />
-      <Task task={{ title: "Taller componentes", completed: true }} />
-      <ToggleText />
-      <DynamicForm/>
-      <ClickCounter></ClickCounter>
-      <RegistrationForm onRegister={register} />
+      {/*<Text>09/09/2024</Text>*/}
+      {/*<StatusBar style={theme === 'dark' ? 'light' : 'dark'} />*/}
+      {/*<Greeting name="diego" />*/}
+      {/*<UserDetails name="diego" age={20} occupation="estudiante" />*/}
+      {/*<Task task={{ title: "Taller componentes", completed: true }} />*/}
+      {/*<ToggleText />*/}
+      {/*<DynamicForm/>*/}
+      {/*<ClickCounter></ClickCounter>*/}
+      {/*<RegistrationForm onRegister={register} />
       {userData && (
           <View>
             <Text>Registro exitoso:</Text>
@@ -49,14 +49,14 @@ export default function App() {
             <Text>Correo electrónico: {userData.email}</Text>
             <Text>Contraseña: {userData.password}</Text>
           </View>
-        )}
+        )}*/}
 
-      <ThemeSwitcher theme={theme} toggleTheme={toggleTheme} />
-      <AlertButton message="🚨🚨🚨🚨" />
-      <ParentCounter />
-      <ImageGallery />
+      {/*<ThemeSwitcher theme={theme} toggleTheme={toggleTheme} />*/}
+      {/*<AlertButton message="🚨🚨🚨🚨" />*/}
+      {/*<ParentCounter />*/}
+      {/*<ImageGallery />*/}
+      {/*<Game />*/}
       </SafeAreaView>
-      <Game />
     </View>
     </ScrollView>
   );
